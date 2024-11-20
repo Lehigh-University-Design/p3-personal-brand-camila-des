@@ -1,4 +1,12 @@
+@font-face {
+    font-family:groundnut-font;
+    src: url(groundnut-font/Groundnut-yxPm.otf);
+}
+
+
+
 h1 {
+    font-family:groundnut-font; 
     margin: auto;
     text-align: center;
     width: 50%;
