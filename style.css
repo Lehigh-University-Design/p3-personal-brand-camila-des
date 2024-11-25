@@ -21,6 +21,14 @@ h1 {
     padding: 10px;
   }
 
+  p{
+    font-family:groundnut-font; 
+    font-size: 30px;
+    margin: auto;
+    width: 80%;
+    padding: 100px;
+  }
+
   /* HISTORY BEGIN */
 
   * {
