@@ -33,6 +33,18 @@ h1 {
   scale: 0.35;
 }
 
+.iconss{
+  display: flex;
+  width: 100%;
+  background-color: red;
+  img{
+    max-width: 400px;
+    width: 25%;
+    height: auto;
+  }
+
+}
+
 /*NAV BAR*/
 * {
   margin: 0;
