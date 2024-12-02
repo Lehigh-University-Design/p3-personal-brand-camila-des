@@ -73,7 +73,7 @@ body {
 }
 
 .nav-item:hover > a {
-  background-color: #444; /* Change background on hover */
+  background-color: #ffffff; /* Change background on hover */
 }
 
 .nav-item .dropdown {
