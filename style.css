@@ -33,7 +33,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 100vw;
-  
+
   img{
     max-height: 400px;
     /* width: auto;
