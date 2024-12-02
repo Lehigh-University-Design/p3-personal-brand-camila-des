@@ -29,8 +29,8 @@ h1 {
     padding: 100px;
   }
 
-.sback{
-  background-image: url("snoopy_1.png");
+#img-snoopy{
+  scale: 0.35;
 }
 
 /*NAV BAR*/
@@ -75,7 +75,6 @@ h1 {
 
 .nav-item .dropdown {
   display: none;
-  background-color: #555;
   list-style: none;
   padding-left: 20px;
 }
@@ -97,14 +96,14 @@ h1 {
 }
 
 .dropdown li a:hover {
-  background-color: #666;
+  background-color: #ffffff;
 }
 
 /* Icon styling */
 .nav-icon {
-  width: 20px;
-  height: 20px;
-  margin-left: 8px;
+  width: 100px;
+  height: 100px;
+  margin-left: 2px;
 }
 
 /* Content area styling */
@@ -118,6 +117,7 @@ h1 {
   color: #333;
 }
 /* NAV BAR END */
+
 
 
 
