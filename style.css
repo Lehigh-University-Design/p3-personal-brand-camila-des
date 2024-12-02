@@ -4,7 +4,6 @@
 }
 
 
-
 h1 {
     font-family:groundnut-font; 
     font-size: 100px;
@@ -30,11 +29,8 @@ h1 {
     padding: 100px;
   }
 
-.gif{
-  background-image: url("source.gif");
-  background-size: cover;
-  padding:0;
-  margin:0;
+.sback{
+  background-image: url("snoopy_1.png");
 }
 
 /*NAV BAR*/
@@ -42,12 +38,6 @@ h1 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  height: 100vh;
 }
 
 /* Sidebar styling */
