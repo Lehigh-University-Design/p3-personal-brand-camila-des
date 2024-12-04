@@ -193,7 +193,7 @@ h1 {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: rgb(255, 29, 29);
+    background-color: rgb(0, 0, 0);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -281,4 +281,5 @@ h1 {
     .right {
       left: 0%;
     }
+  
   }
