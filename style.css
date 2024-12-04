@@ -36,14 +36,9 @@ h1 {
     margin: auto;
     width: 80%;
     padding: 100px;
+    word-spacing: 4px;
   } 
 
-  #img-words{
-      max-height: 1200px;
-      
-  }
-
-  
 .iconss{
   display: flex;
   justify-content: space-around;
@@ -58,11 +53,24 @@ h1 {
     max-height: 290px;
   }
 }
-
+/*SUPPERTIME*/ 
 #img-menu{
   max-height: 1200px;
   padding: 60px;
 }
+
+#img-strips{
+  max-height: 600px;
+  padding: 60px;
+}
+/*END SUPPERTIME*/ 
+
+/*WISE WORDS*/ 
+#img-words{
+  max-height: 1200px;
+}
+/*END WISE WORDS*/
+
 
 /* NAV BAR */
 /* Dropdown Button */
@@ -73,9 +81,8 @@ h1 {
   font-family:groundnut-font;
   font-size: 40px;
   border: none;
-  position: right;
   img{
-    max-height: 80px;
+    max-height: 90px;
   }
 }
 
