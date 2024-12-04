@@ -45,6 +45,13 @@ h1 {
   }
 }
 
+img{
+  max-height: 1500px;
+  position: absolute;
+  padding: 60px;
+}
+
+
 /*NAV BAR*/
 * {
   margin: 0;
