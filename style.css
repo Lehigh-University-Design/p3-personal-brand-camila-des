@@ -15,10 +15,11 @@ h1 {
 
   h2 {
     font-family:groundnut-font; 
-    font-size: 80px;
+    font-size: 70px;
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 50px;
+    text-align: center;
   }
 
   p{
@@ -28,14 +29,22 @@ h1 {
     width: 80%;
     padding: 100px;
   }
+/*TYPE ANIMATION*/
+
+/*END TYPE ANIMATION*/  
 
 .iconss{
   display: flex;
   justify-content: space-around;
   width: 100vw;
+  
+  position:absolute;
+  top:58%;
+  height: 100%;
+  width: 100%;
 
   img{
-    max-height: 400px;
+    max-height: 250px;
     /* width: auto;
     height: auto; */
   }
