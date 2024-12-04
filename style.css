@@ -3,22 +3,30 @@
     src: url(groundnut-font/Groundnut-yxPm.otf);
 }
 
-
 h1 {
     font-family:groundnut-font; 
-    font-size: 100px;
+    font-size: 115px;
     margin: auto;
     text-align: center;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
   }
 
   h2 {
     font-family:groundnut-font; 
-    font-size: 70px;
+    font-size: 60px;
     margin: auto;
     width: 50%;
     padding: 50px;
+    text-align: center;
+  }
+
+  h3 {
+    font-family:groundnut-font; 
+    font-size: 80px;
+    margin: auto;
+    width: 50%;
+    padding: 220px;
     text-align: center;
   }
 
@@ -30,6 +38,8 @@ h1 {
     padding: 100px;
   } 
 
+
+  
 .iconss{
   display: flex;
   justify-content: space-around;
@@ -45,12 +55,10 @@ h1 {
   }
 }
 
-img{
-  max-height: 1500px;
-  position: absolute;
+#img-menu{
+  max-height: 1200px;
   padding: 60px;
 }
-
 
 /*NAV BAR*/
 * {
@@ -136,7 +144,6 @@ img{
   color: #333;
 }
 /* NAV BAR END */
-
 
 
 
