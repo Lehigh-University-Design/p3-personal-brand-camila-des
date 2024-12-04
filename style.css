@@ -25,8 +25,8 @@ h1 {
     font-family:groundnut-font; 
     font-size: 80px;
     margin: auto;
-    width: 50%;
-    padding: 220px;
+    width: 70%;
+    padding: 250px;
     text-align: center;
   }
 
@@ -85,10 +85,13 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #f1f1f100;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0);
   z-index: 1;
+  img{
+    max-height: 120px;
+  }
 }
 
 /* Links inside the dropdown */
@@ -100,7 +103,7 @@ h1 {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ffffff00;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
@@ -110,7 +113,7 @@ h1 {
 /* NAV BAR END */
 
 
-/* HISTORY BEGIN */
+/* TIMLINE/HISTORY BEGIN */
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -119,22 +122,24 @@ h1 {
   max-width: 700px;
   position: relative;
 }
+
 .timeline__content-title {
   font-weight: normal;
-  font-size: 66px;
+  font-size: 100px;
+  font-family:groundnut-font;
   margin: -10px 0 0 0;
   transition: .4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family:groundnut-font;
   color: #fff;
 }
+
 .timeline__content-desc {
   margin: 0;
-  font-size: 15px;
+  font-size: 25px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.7);
-  font-family:groundnut;
+  font-family:groundnut-font;
   font-weight: normal;
   line-height: 25px;
 }
@@ -145,7 +150,7 @@ h1 {
   height: 100%;
   margin-left: -1px;
   content: "";
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.05);
 }
 @media only screen and (max-width: 767px) {
   .timeline:before {
@@ -170,7 +175,7 @@ h1 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: groundnut-font;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   top: 70%;
   margin-top: -5px;
@@ -246,19 +251,21 @@ h1 {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  font-size: groundnut-font;
 }
 .timeline-header__title {
   color: #fff;
-  font-size: 46px;
-  font-family: Cardo;
+  font-size: 115px;
+  font-family: groundnut-font;
   font-weight: normal;
-  margin: 0;
+  margin: 30px 0 0 0;
+  text-align: center;
 }
 .timeline-header__subtitle {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: "Pathway Gothic One", sans-serif;
-  font-size: 16px;
-  letter-spacing: 5px;
+  color: rgba(255, 255, 255, 0.775);
+  font-family: groundnut-font;
+  font-size: 60px;
+  letter-spacing: 4px;
   margin: 10px 0 0 0;
   font-weight: normal;
 }
