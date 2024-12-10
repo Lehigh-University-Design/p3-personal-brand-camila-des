@@ -23,7 +23,7 @@ h1 {
 
   h3 {
     font-family:groundnut-font; 
-    font-size: 80px;
+    font-size: 90px;
     margin: auto;
     width: 70%;
     padding: 250px;
@@ -279,4 +279,9 @@ h1 {
   letter-spacing: 4px;
   margin: 10px 0 0 0;
   font-weight: normal;
+}
+
+
+#img-gang{
+  align-items: center;
 }
