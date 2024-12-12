@@ -273,12 +273,25 @@ h1 {
   text-align: center;
 }
 .timeline-header__subtitle {
-  color: rgba(255, 255, 255, 0.775);
+  color: rgba(255, 255, 255, 0.843);
   font-family: groundnut-font;
   font-size: 60px;
   letter-spacing: 4px;
   margin: 10px 0 0 0;
   font-weight: normal;
+}
+
+.comicstrip{
+  justify-content: space-around;
+  width: 100vw;
+  
+  top:70%;
+  height: 100%;
+  width: 100%;
+
+  img{
+    max-height: 250px;
+  }
 }
 
 /*GANG BEGIN*/
