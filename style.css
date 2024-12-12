@@ -50,7 +50,7 @@ h1 {
   width: 100%;
 
   img{
-    max-height: 290px;
+    max-height: 250px;
   }
 }
 /*SUPPERTIME*/ 
@@ -281,7 +281,20 @@ h1 {
   font-weight: normal;
 }
 
-
+/*GANG BEGIN*/
 #img-gang{
-  align-items: center;
+  max-height: 450px;
 }
+
+#simple-grid, #gallery-grid{
+  width: 100%;
+  margin-bottom: 2vw;
+}
+
+.gal-item{
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+/*GANG END*/
+
